@@ -1,2 +1,2 @@
-token = '1127671206:AAFdB2OhbFVVpSCKQQEUm7fQGkER_WKlx7k'
+token = 'BOT_TOKEN'
 
