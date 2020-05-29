@@ -1,1 +1,10 @@
-pytelegrambotapi
+certifi==2020.4.5.1
+chardet==3.0.4
+config==0.5.0.post0
+idna==2.9
+pip==20.1.1
+pyTelegramBotAPI==3.7.1
+requests==2.23.0
+setuptools==47.1.1
+six==1.15.0
+urllib3==1.25.9
