@@ -1,11 +1,12 @@
 import telebot
 import config
 import random
+import os
 
 from telebot import types
 
-bot = telebot.TeleBot(config.TOKEN)
-
+bot = telebot.TeleBot(token = os.environ.get('GGVP_TOKEN'))
+bot.run(str(token))
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
