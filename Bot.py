@@ -1,11 +1,10 @@
 import telebot
 import config
 import random
-import os
 
 from telebot import types
 
-bot = telebot.TeleBot(token = ('1127671206:AAFdB2OhbFVVpSCKQQEUm7fQGkER_WKlx7k')
+bot = telebot.TeleBot(token = '1127671206:AAFdB2OhbFVVpSCKQQEUm7fQGkER_WKlx7k')
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
