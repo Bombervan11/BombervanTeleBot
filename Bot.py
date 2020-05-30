@@ -4,7 +4,7 @@ import random
 
 from telebot import types
 
-bot = telebot.TeleBot(token = '1127671206:AAFdB2OhbFVVpSCKQQEUm7fQGkER_WKlx7k')
+bot = telebot.TeleBot(token = 'BOT_TOKEN')
 
 
 @bot.message_handler(commands=['start'])
