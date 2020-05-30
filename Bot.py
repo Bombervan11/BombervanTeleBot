@@ -9,7 +9,7 @@ bot = telebot.TeleBot(token = '1127671206:AAFdB2OhbFVVpSCKQQEUm7fQGkER_WKlx7k')
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
-    sti = open('D:\Bombervan/telegramBOT/AnimatedSticker.tgs', 'rb')
+    sti = open('AnimatedSticker.tgs', 'rb')
     bot.send_sticker(message.chat.id, sti)
 
     # keyboard
