@@ -4,7 +4,7 @@ import random
 
 from telebot import types
 
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(token = 'GGVP_TOKEN')
 
 
 @bot.message_handler(commands=['start'])
