@@ -5,8 +5,7 @@ import os
 
 from telebot import types
 
-bot = telebot.TeleBot(token = os.environ.get('GGVP_TOKEN'))
-bot.run(str(token))
+bot = telebot.TeleBot(token = ('1127671206:AAFdB2OhbFVVpSCKQQEUm7fQGkER_WKlx7k')
 
 @bot.message_handler(commands=['start'])
 def welcome(message):
